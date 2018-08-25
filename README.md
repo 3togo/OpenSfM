@@ -57,6 +57,7 @@ See this [Dockerfile](https://github.com/paulinus/opensfm-docker-base/blob/maste
 
 ## for ubuntu 18.04
     sudo apt install libeigen3-dev libceres-dev libboost-numpy-dev libboost-python-dev
+    sudo -H pip install pyproj loky pyyaml exifread xmltodict pyope
 
 #### Install note
 
