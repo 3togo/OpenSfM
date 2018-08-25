@@ -55,6 +55,9 @@ See this [Dockerfile](https://github.com/paulinus/opensfm-docker-base/blob/maste
  3. Clone, build and install [OpenGV][] following the receipt in the Dockerfile
  4. [Build and Install](http://ceres-solver.org/building.html) the [Ceres solver][] from its source using the `-fPIC` compilation flag.
 
+for ubuntu 18.04
+sudo apt install libeigen3-dev libceres-dev libboost-numpy-dev libboost-python-dev
+
 #### Install note
 
 When running OpenSfM on top of [OpenCV][] 3.0 the [OpenCV Contrib][] modules are required for extracting SIFT or SURF features.
